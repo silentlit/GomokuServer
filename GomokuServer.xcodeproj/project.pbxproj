@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07956DE61F20908000CAAB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07956DE51F20908000CAAB03 /* AppDelegate.swift */; };
+		07956DE81F20908000CAAB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07956DE71F20908000CAAB03 /* ViewController.swift */; };
+		07956DEA1F20908000CAAB03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07956DE91F20908000CAAB03 /* Assets.xcassets */; };
+		07956DED1F20908000CAAB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07956DEB1F20908000CAAB03 /* Main.storyboard */; };
+		07956DF81F20908000CAAB03 /* GomokuServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07956DF71F20908000CAAB03 /* GomokuServerTests.swift */; };
+		07956E031F20908000CAAB03 /* GomokuServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07956E021F20908000CAAB03 /* GomokuServerUITests.swift */; };
+		F0496B4D16A8452299F36BD0 /* Pods_GomokuServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35DA0A3698059BE99010BED7 /* Pods_GomokuServer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07956DF41F20908000CAAB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07956DDA1F20907F00CAAB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07956DE11F20908000CAAB03;
+			remoteInfo = GomokuServer;
+		};
+		07956DFF1F20908000CAAB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07956DDA1F20907F00CAAB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07956DE11F20908000CAAB03;
+			remoteInfo = GomokuServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0026201DC727DDC5FB90E1A1 /* Pods-GomokuServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GomokuServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GomokuServer/Pods-GomokuServer.debug.xcconfig"; sourceTree = "<group>"; };
+		07956DE21F20908000CAAB03 /* GomokuServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GomokuServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07956DE51F20908000CAAB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07956DE71F20908000CAAB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07956DE91F20908000CAAB03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07956DEC1F20908000CAAB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07956DEE1F20908000CAAB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07956DF31F20908000CAAB03 /* GomokuServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07956DF71F20908000CAAB03 /* GomokuServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuServerTests.swift; sourceTree = "<group>"; };
+		07956DF91F20908000CAAB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07956DFE1F20908000CAAB03 /* GomokuServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GomokuServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07956E021F20908000CAAB03 /* GomokuServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GomokuServerUITests.swift; sourceTree = "<group>"; };
+		07956E041F20908000CAAB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35DA0A3698059BE99010BED7 /* Pods_GomokuServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GomokuServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		663D5A3E22348E51B8503414 /* Pods-GomokuServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GomokuServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GomokuServer/Pods-GomokuServer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07956DDF1F20908000CAAB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0496B4D16A8452299F36BD0 /* Pods_GomokuServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07956DF01F20908000CAAB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07956DFB1F20908000CAAB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07956DD91F20907F00CAAB03 = {
+			isa = PBXGroup;
+			children = (
+				07956DE41F20908000CAAB03 /* GomokuServer */,
+				07956DF61F20908000CAAB03 /* GomokuServerTests */,
+				07956E011F20908000CAAB03 /* GomokuServerUITests */,
+				07956DE31F20908000CAAB03 /* Products */,
+				FAA8D143D59D15736CE29635 /* Pods */,
+				80500F8D754A997865057B57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07956DE31F20908000CAAB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07956DE21F20908000CAAB03 /* GomokuServer.app */,
+				07956DF31F20908000CAAB03 /* GomokuServerTests.xctest */,
+				07956DFE1F20908000CAAB03 /* GomokuServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07956DE41F20908000CAAB03 /* GomokuServer */ = {
+			isa = PBXGroup;
+			children = (
+				07956DE51F20908000CAAB03 /* AppDelegate.swift */,
+				07956DE71F20908000CAAB03 /* ViewController.swift */,
+				07956DE91F20908000CAAB03 /* Assets.xcassets */,
+				07956DEB1F20908000CAAB03 /* Main.storyboard */,
+				07956DEE1F20908000CAAB03 /* Info.plist */,
+			);
+			path = GomokuServer;
+			sourceTree = "<group>";
+		};
+		07956DF61F20908000CAAB03 /* GomokuServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				07956DF71F20908000CAAB03 /* GomokuServerTests.swift */,
+				07956DF91F20908000CAAB03 /* Info.plist */,
+			);
+			path = GomokuServerTests;
+			sourceTree = "<group>";
+		};
+		07956E011F20908000CAAB03 /* GomokuServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07956E021F20908000CAAB03 /* GomokuServerUITests.swift */,
+				07956E041F20908000CAAB03 /* Info.plist */,
+			);
+			path = GomokuServerUITests;
+			sourceTree = "<group>";
+		};
+		80500F8D754A997865057B57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35DA0A3698059BE99010BED7 /* Pods_GomokuServer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA8D143D59D15736CE29635 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0026201DC727DDC5FB90E1A1 /* Pods-GomokuServer.debug.xcconfig */,
+				663D5A3E22348E51B8503414 /* Pods-GomokuServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07956DE11F20908000CAAB03 /* GomokuServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07956E071F20908000CAAB03 /* Build configuration list for PBXNativeTarget "GomokuServer" */;
+			buildPhases = (
+				26A546A0AED07705B5BC8358 /* [CP] Check Pods Manifest.lock */,
+				07956DDE1F20908000CAAB03 /* Sources */,
+				07956DDF1F20908000CAAB03 /* Frameworks */,
+				07956DE01F20908000CAAB03 /* Resources */,
+				6B6E92789FC4FB1C52BCA14F /* [CP] Embed Pods Frameworks */,
+				A095D6E308E6D743A26E9355 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GomokuServer;
+			productName = GomokuServer;
+			productReference = 07956DE21F20908000CAAB03 /* GomokuServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07956DF21F20908000CAAB03 /* GomokuServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07956E0A1F20908000CAAB03 /* Build configuration list for PBXNativeTarget "GomokuServerTests" */;
+			buildPhases = (
+				07956DEF1F20908000CAAB03 /* Sources */,
+				07956DF01F20908000CAAB03 /* Frameworks */,
+				07956DF11F20908000CAAB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07956DF51F20908000CAAB03 /* PBXTargetDependency */,
+			);
+			name = GomokuServerTests;
+			productName = GomokuServerTests;
+			productReference = 07956DF31F20908000CAAB03 /* GomokuServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07956DFD1F20908000CAAB03 /* GomokuServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07956E0D1F20908000CAAB03 /* Build configuration list for PBXNativeTarget "GomokuServerUITests" */;
+			buildPhases = (
+				07956DFA1F20908000CAAB03 /* Sources */,
+				07956DFB1F20908000CAAB03 /* Frameworks */,
+				07956DFC1F20908000CAAB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07956E001F20908000CAAB03 /* PBXTargetDependency */,
+			);
+			name = GomokuServerUITests;
+			productName = GomokuServerUITests;
+			productReference = 07956DFE1F20908000CAAB03 /* GomokuServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07956DDA1F20907F00CAAB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yyh;
+				TargetAttributes = {
+					07956DE11F20908000CAAB03 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					07956DF21F20908000CAAB03 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07956DE11F20908000CAAB03;
+					};
+					07956DFD1F20908000CAAB03 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 07956DE11F20908000CAAB03;
+					};
+				};
+			};
+			buildConfigurationList = 07956DDD1F20907F00CAAB03 /* Build configuration list for PBXProject "GomokuServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07956DD91F20907F00CAAB03;
+			productRefGroup = 07956DE31F20908000CAAB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07956DE11F20908000CAAB03 /* GomokuServer */,
+				07956DF21F20908000CAAB03 /* GomokuServerTests */,
+				07956DFD1F20908000CAAB03 /* GomokuServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07956DE01F20908000CAAB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07956DEA1F20908000CAAB03 /* Assets.xcassets in Resources */,
+				07956DED1F20908000CAAB03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07956DF11F20908000CAAB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07956DFC1F20908000CAAB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26A546A0AED07705B5BC8358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B6E92789FC4FB1C52BCA14F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GomokuServer/Pods-GomokuServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A095D6E308E6D743A26E9355 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GomokuServer/Pods-GomokuServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07956DDE1F20908000CAAB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07956DE81F20908000CAAB03 /* ViewController.swift in Sources */,
+				07956DE61F20908000CAAB03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07956DEF1F20908000CAAB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07956DF81F20908000CAAB03 /* GomokuServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07956DFA1F20908000CAAB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07956E031F20908000CAAB03 /* GomokuServerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07956DF51F20908000CAAB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07956DE11F20908000CAAB03 /* GomokuServer */;
+			targetProxy = 07956DF41F20908000CAAB03 /* PBXContainerItemProxy */;
+		};
+		07956E001F20908000CAAB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07956DE11F20908000CAAB03 /* GomokuServer */;
+			targetProxy = 07956DFF1F20908000CAAB03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07956DEB1F20908000CAAB03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07956DEC1F20908000CAAB03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07956E051F20908000CAAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07956E061F20908000CAAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07956E081F20908000CAAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0026201DC727DDC5FB90E1A1 /* Pods-GomokuServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GomokuServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyh.GomokuServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07956E091F20908000CAAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663D5A3E22348E51B8503414 /* Pods-GomokuServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GomokuServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyh.GomokuServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07956E0B1F20908000CAAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GomokuServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyh.GomokuServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GomokuServer.app/Contents/MacOS/GomokuServer";
+			};
+			name = Debug;
+		};
+		07956E0C1F20908000CAAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GomokuServerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyh.GomokuServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GomokuServer.app/Contents/MacOS/GomokuServer";
+			};
+			name = Release;
+		};
+		07956E0E1F20908000CAAB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GomokuServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyh.GomokuServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GomokuServer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		07956E0F1F20908000CAAB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = GomokuServerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yyh.GomokuServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GomokuServer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07956DDD1F20907F00CAAB03 /* Build configuration list for PBXProject "GomokuServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07956E051F20908000CAAB03 /* Debug */,
+				07956E061F20908000CAAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07956E071F20908000CAAB03 /* Build configuration list for PBXNativeTarget "GomokuServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07956E081F20908000CAAB03 /* Debug */,
+				07956E091F20908000CAAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07956E0A1F20908000CAAB03 /* Build configuration list for PBXNativeTarget "GomokuServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07956E0B1F20908000CAAB03 /* Debug */,
+				07956E0C1F20908000CAAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07956E0D1F20908000CAAB03 /* Build configuration list for PBXNativeTarget "GomokuServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07956E0E1F20908000CAAB03 /* Debug */,
+				07956E0F1F20908000CAAB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07956DDA1F20907F00CAAB03 /* Project object */;
+}
