@@ -12,7 +12,6 @@ import CocoaAsyncSocket
 class ViewController: NSViewController
 {
     var serverSocket: GCDAsyncSocket? //创建服务端
-//    var clients = [GCDAsyncSocket]()
     var clientSockets = [GCDAsyncSocket: String]() //保存所有的 socket -> preUsername
     var blackDict = [String: GCDAsyncSocket]() //黑棋client preUsername -> socket
     var blackWaitQueue = [String]() //空闲黑棋队列
@@ -66,6 +65,7 @@ class ViewController: NSViewController
         clientSockets[sock] = preUsername
         let username = preUsername.substringFromIndex(preUsername.startIndex.advancedBy(1))
         if preUsername.hasPrefix("b") {
+//            print(sock.description)
             blackDict[preUsername] = sock
             blackWaitQueue.append(preUsername)
             addText("black:\(username) is waiting")
@@ -85,21 +85,6 @@ class ViewController: NSViewController
             addText("send msg to \(clients)")
             lookUpClientByPreUsernameToSendMsg(clients, data: data)
         }
-        
-//        if let senderPreUsername = clientSockets[sender] {
-//            let room = rooms.filter { room in room.contains(senderPreUsername) }
-//            for clients in room {
-//                addText("send msg to \(clients)")
-//                lookUpClientByPreUsernameToSendMsg(clients, data: data)
-////                for client in clients {
-////                    if client.hasPrefix("b") {
-////                        blackDict[client]?.writeData(data, withTimeout: -1, tag: 0)
-////                    } else {
-////                        whiteDict[client]?.writeData(data, withTimeout: -1, tag: 0)
-////                    }
-////                }
-//            }
-//        }
     }
     
     //根据senderClient查找room
@@ -171,7 +156,6 @@ extension ViewController: GCDAsyncSocketDelegate {
             addText("Host: " + String(h))
             addText("Port: " + String(newSocket.connectedPort))
         }
-//        clients.append(newSocket)
         clientSockets[newSocket] = ""
         //第一次读取data
         newSocket.readDataWithTimeout(-1, tag: 0)
@@ -189,11 +173,12 @@ extension ViewController: GCDAsyncSocketDelegate {
             //根据condition进行功能选择
             switch condition {
             //连接至server时将用户名与socket、颜色绑定
-            case "username":
+            case "username" :
                 let preUsername = info.removeFirst()
                 preUsernameWithSocket(preUsername, sock: sock)
               
-            case "drawBlack", "drawWhite", "blackWin", "whiteWin": //广播给客户端处理
+            //广播给客户端处理
+            case "drawBlack", "drawWhite", "blackWin", "whiteWin", "blackRequestUndo", "whiteRequestUndo", "blackCommit", "whiteCommit" :
                 broadcastToClients(data, sender: sock)
                 
             default:
@@ -205,4 +190,3 @@ extension ViewController: GCDAsyncSocketDelegate {
         }
     }
 }
-
